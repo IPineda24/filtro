@@ -1,0 +1,406 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+.fondoLogin {
+ 
+  background-image: url(../src/img/1.jpeg);
+  height: 100vh;
+  width: 100%;
+  
+}
+@font-face {
+  font-family: rickymorty;
+  src: url(../src/Rick-and-Morty-Font/get_schwifty.ttf);
+}
+
+.Bienvenidos{
+  color: white;
+  margin-left: 150px;
+  padding-top: 0px;
+}
+.Bienvenidos-p{
+  color: #38b000;
+  font-family: rickymorty;
+  margin-left: 150px;
+  font-size: 60px;
+  text-shadow: 2px 2px  aliceblue ;
+}
+.usser-imagen{
+  position: absolute;
+  right: 30px;
+  margin-top: 30px;
+  vertical-align: end;
+  width: 80px;
+  border-radius: 53px;
+  
+}
+.usserName{
+  text-align: left;
+  padding: 60px 125px 20px ;
+  text-align: right;
+  color: aliceblue;
+
+}
+.perfilName{
+  padding-top: 20px;
+  padding-left: 250px;
+  color: white;
+}
+.usuario-email{
+  text-align: left;
+  text-shadow: 2px 2px  aliceblue ;
+  color: #38b000;
+  font-family: rickymorty;
+  font-size: 55px;
+  margin-left: 250px;
+}
+
+.btn-login1{
+  margin: 50px;
+}
+.btn-logout1{
+  text-align: center;
+  position: absolute;
+  right: 30px;
+  top: 110px;
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+}
+.contenido-App{
+  margin: 0;
+}
+
+/* estilos fitro*/
+
+.filtroBusqueda{
+  width: 40%;
+margin: 0px 200px;
+
+}
+.SelectFiltro{
+  margin-top: 0px;
+}
+.nav-contenedor{
+  background-color: #d9fcce;
+  width: 5rem;
+ padding: 20px;
+ margin-bottom: 10px;
+ height: 100vh;
+ border-radius: 0px 15px 15px 0px;
+ position: fixed;
+ transition: ease;
+ overflow: hidden;
+ display: flex;
+ flex-direction: column;
+ align-content: center;
+
+}
+
+.nav-contenedor:hover{
+  width: 15rem;
+  flex-direction: column;
+  
+}
+
+.barra_menu{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #d9fcce;
+  align-items: center;
+  cursor: pointer;
+  align-items: center;
+}
+
+.imagen-contenedor{
+ background-color: #d9fcce;
+  
+}
+
+.menu-imagen{
+  display: flex;
+  align-items: center;
+  justify-self: start;
+  width: 12.5rem;
+  background-color: #aafa96;
+  display:none;
+  margin: 15px;
+  
+}
+
+
+
+.menuNav{
+list-style: none; 
+padding: 0;   
+
+}
+
+.menuItem{
+  background-color: #d9fcce;
+  vertical-align: middle;  
+ 
+
+}
+
+.menu-icono{
+  display:fixed;
+  align-content: center;
+  height: 4rem;
+  width: 1.9rem;
+  background-color: #d9fcce;
+  vertical-align: middle;
+ 
+ 
+  
+  
+}
+
+.menuIcono-Inferior{
+  display:fixed;
+ align-content: center;
+  position: relative;
+  top: 275px;
+  height: 4rem;
+  width: 1.9rem;
+  background-color: #d9fcce;
+  color: black;
+  vertical-align: middle;
+  
+ 
+  
+}
+
+.linkMenu{
+  color: rgb(94, 91, 91);
+  text-decoration: none;
+  line-height: 20px;
+  background-color: #d9fcce;
+  width: 16rem;
+  display: none;
+  vertical-align: middle;
+  height: 5rem;
+  padding: 15px;
+  font-size: 19px;
+  padding-right: 3rem;
+  margin-top: 80px;
+
+}
+
+.linkInferior{
+  color: rgb(94, 91, 91);
+  text-decoration: none;
+  line-height: 30px;
+  position: relative;
+  top: 200px;
+  background-color: #d9fcce;
+  width: 16rem;
+  height: 5rem;
+  display: none;
+  padding: 15px;
+  font-size: 19px;
+  vertical-align: middle;
+  
+
+}
+
+
+.menu-icono:hover{
+  color: #343535;
+  
+}
+
+.menuIcono-Inferior{
+  color: #343535;
+ 
+}
+
+.linkMenu:hover{
+  color: #343535;
+  background-color: #aafa96;
+  
+}
+
+.linkInferior:hover{
+  color: #343535;
+  background-color: #aafa96;
+  
+}
+
+.nav-contenedor:hover .linkMenu{
+  display: inline;
+  
+  
+  
+}
+.nav-contenedor:hover .linkInferior{
+  display: inline;
+  top: 100px;
+  
+}
+.nav-contenedor:hover .menu-icono{
+  display: inline;
+  top: 100px;
+}
+.nav-contenedor:hover .menuIcono-Inferior{
+  display: inline;
+  top: 100px;
+}
+
+.nav-contenedor:hover .menu-imagen{
+  display: inline;
+}
+
+.card{
+  margin-left: 50px;
+  
+}
+.pagination{
+  
+  margin-bottom: 15px;
+
+}
+
+/******** PAGINA DESARROLLADORAS *******/
+.carousel-indicators [data-bs-target] {
+  margin-left: 10px;
+  margin-right: 80px;
+ }
+
+ .elemento-dev {
+  display: flex;
+  flex-direction: row;
+  column-gap: 25px;
+ }
+
+ .info-desarrolladoras {
+  width: 50%;
+  margin-right: 0px;
+  display: flex;
+  flex-direction: column;
+  /**align-items: center;*/
+  justify-content: top;
+ }
+
+ .imagen-desarrolladoras {
+  width: 50%;
+  margin-right: 0px;
+  padding: 0px;
+  margin: 0px;
+ }
+
+ .imagen-desarrolladoras img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+ }
+
+ .infoSpace {
+  margin-bottom: 20px;
+ }
+
+ .indicadores {
+  margin-top: 35px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .indicadores button {
+  border: 1px solid black;
+  /**margin: 10px;*/
+  background-color: #f0f0f000;
+ }
+
+ .indicadores img {
+  height: 75px;
+  width: 75px;
+  border-radius: 12px;
+  border: 1.5px solid black;
+ }
+
+ .infoContainer {
+  height: auto;
+  width: 100%;
+  margin-bottom: 25px;
+ }
+
+ .aboutMe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+ }
+
+ .aboutMe p {
+  background-color: #8BCF21;
+  position: absolute;
+  height: auto;
+  width: 350px;
+  bottom: 15px;
+  padding: 10px;
+  border-radius: 12px;
+ }
+
+ .desarrolladoraName {
+  /**align-items: center;*/
+  font-size: 45px;
+  margin-bottom: 25px;
+  text-align: center;
+ }
+
+ .infoSpace strong {
+  color: #2b842d;
+  font-size: 17px;
+ }
+
+ .fondoProfile {
+  background: linear-gradient(117.23deg, rgba(139, 207, 33, 0.4) 0.83%, rgba(47, 147, 49, 0.4) 115.36%);
+  min-height: 100vh;
+ }
+
+ body::-webkit-scrollbar {
+  width: 9px;
+  background: rgba(47, 147, 49, 0.4);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #00000065;
+  border-radius: 5px;
+}
+
+/****** ******/
+div .container-fluid {
+  margin: 0px;
+
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.row {
+  margin: 0px;
+  padding: 0px;
+}
+
+.col {
+  padding: 0px;
+}
+
+.col-4 {
+  padding: 0px;
+  padding-left: 0px;
+}
+
+.derecha{
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
